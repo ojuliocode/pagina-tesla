@@ -8,6 +8,7 @@ header {
     background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
+    display: flex;
 }
 
 /* Navigation styles */
@@ -40,4 +41,8 @@ footer {
     background-color: #f4f4f4;
     padding: 10px;
     text-align: center;
+}
+
+.logo {
+    width: 100px;
 }
