@@ -13,12 +13,30 @@ body {
     background-size: cover; 
 }
 
+main {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
     font-weight:bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 28px;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 header {
@@ -28,56 +46,19 @@ header {
     padding: 12px 40px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 28px;
-    font-size: 13px;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-
-main {
-    margin: 20px 0;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-
-footer {
-    background-color: #f4f4f4;
-    padding: 10px;
-    text-align: center;
-}
-
 .logo {
     width: 120px;
 }
 
 .icons {
     display: flex;
-    gap: 10px;
+    gap: 13px;
 }
 
 .icons img {
     width: 30px;
 }
 
-ul {
-    list-style-type: none;
-}
 
 main {
     display: flex;
@@ -103,14 +84,13 @@ main {
     margin-top: 300px;
 }
 
-.buttons button {
+.buttons * {
     font-size: 13px;
     padding: 10px 90px;
     border-radius: 3px;
     font-weight: bold;
     cursor: pointer;
 }
-
 
 .dark {
     background-color: rgb(31, 31, 31);
