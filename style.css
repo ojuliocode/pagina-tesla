@@ -4,24 +4,23 @@
     border: 0;
     color: rgb(31, 31, 31);
 }
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
-    background-image: url('carros.jpg');
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Makes the background fixed during scrolling */
-    background-size: cover; /* Ensures the image covers the entire body */
+    background-image: url('assets/carros.jpg');
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover; 
 }
 
 nav {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
     font-weight:bold;
 }
-/* Header styles */
+
 header {
     text-align: center;
     display: flex;
@@ -29,7 +28,6 @@ header {
     padding: 12px 40px;
 }
 
-/* Navigation styles */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -48,7 +46,7 @@ nav ul li a {
     color: black;
 }
 
-/* Main content styles */
+
 main {
     margin: 20px 0;
 }
@@ -57,7 +55,7 @@ section {
     margin-bottom: 20px;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #f4f4f4;
     padding: 10px;
@@ -110,7 +108,7 @@ main {
     padding: 10px 90px;
     border-radius: 3px;
     font-weight: bold;
-
+    cursor: pointer;
 }
 
 
