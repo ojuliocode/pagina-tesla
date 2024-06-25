@@ -1,20 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: rgb(31, 31, 31);
+}
 /* General styles */
 body {
     font-family: Arial, sans-serif;
+    background-image: url('carros.jpg');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background fixed during scrolling */
+    background-size: cover; /* Ensures the image covers the entire body */
 }
 
+nav {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight:bold;
+}
 /* Header styles */
 header {
-    background-color: #f4f4f4;
-    padding: 20px;
     text-align: center;
     display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
 }
 
 /* Navigation styles */
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    gap: 28px;
+    font-size: 13px;
 }
 
 nav ul li {
@@ -44,5 +65,56 @@ footer {
 }
 
 .logo {
-    width: 100px;
+    width: 120px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.conteudo h1 {
+    font-size: 40px;
+}
+
+.conteudo h2 {
+    font-weight: 100;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.buttons button {
+    font-size: 13px;
+    padding: 10px 90px;
+    border-radius: 3px;
+    font-weight: bold;
+
+}
+
+
+.dark {
+    background-color: rgb(31, 31, 31);
+    color: white;
 }
