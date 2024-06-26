@@ -1,53 +1,47 @@
 * {
+    font-family: sans-serif;
+    color: rgb(31, 31, 31);
     padding: 0;
     margin: 0;
     border: 0;
-    color: rgb(31, 31, 31);
+}
+
+.logo {
+    width: 120px;
+    height: auto;
 }
 
 body {
-    font-family: Arial, sans-serif;
     background-image: url('assets/carros.jpg');
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover; 
 }
 
-main {
-    margin: 20px 0;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
 }
 
 a {
     text-decoration: none;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight:bold;
+.icons img{
+    width: 20px;
+    height: auto;
 }
 
 nav ul {
-    display: flex;
     gap: 28px;
     font-size: 13px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-header {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 40px;
-}
-
-.logo {
-    width: 120px;
 }
 
 .icons {
@@ -55,44 +49,32 @@ header {
     gap: 13px;
 }
 
-.icons img {
-    width: 30px;
-}
-
-
 main {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 90px;
-}
-
-.conteudo h1 {
-    font-size: 40px;
-}
-
-.conteudo h2 {
-    font-weight: 100;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    height: 200px;
     align-items: center;
-    margin-top: 300px;
+    height: 200px;
+    margin-top: 150px; 
+    gap: 20px;
 }
 
-.buttons * {
+.buttons button {
     font-size: 13px;
     padding: 10px 90px;
     border-radius: 3px;
-    font-weight: bold;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .dark {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(31,31,31);
     color: white;
 }
